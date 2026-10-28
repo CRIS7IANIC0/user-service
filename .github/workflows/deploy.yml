@@ -15,4 +15,5 @@ jobs:
     uses: CRIS7IANIC0/pipelines/.github/workflows/service-pipeline.yml@main
     with:
       service: user-service
+      deploy: false # Railway despliega tras Wait for CI
     secrets: inherit

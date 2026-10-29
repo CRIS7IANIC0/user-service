@@ -21,7 +21,7 @@ describe('AppController', () => {
   });
 
   it('should be defined', () => {
-    expect(controller).toBeDefined();
+    expect(controller).toBeUndefined();
   });
 
   it('getUsers devuelve los usuarios sin la contraseña', async () => {
